@@ -2,13 +2,13 @@ import { createWebHistory, createRouter } from "vue-router";
 
 const routes =  [
   {
-    path: "/",
+    path: "/home",
     alias: "/",
     name: "home",
     component: () => import("../components/layout/Home")
   },
   {
-    path: "/cliente/",
+    path: "/cliente",
     name: "cliente",
     component: () => import("../components/views/cliente/ListarCliente")
   },
@@ -18,7 +18,7 @@ const routes =  [
     component: () => import("../components/views/cliente/RegistrarCliente")
   },
   {
-    path: "/produto/",
+    path: "/produto",
     name: "produto",
     component: () => import("../components/views/produto/ListarProduto")
   },
@@ -26,6 +26,11 @@ const routes =  [
     path: "/produto/adicionar",
     name: "adicionar-produto",
     component: () => import("../components/views/produto/RegistrarProduto")
+  },
+  {
+    path: "/associar-produto",
+    name: "associar-produto",
+    component: () => import("../components/views/AssociarProduto")
   }
 ];
 
