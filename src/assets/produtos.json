@@ -1,0 +1,27 @@
+[
+    {
+      "id": 0,
+      "nome": "papel",
+      "ativo": true,
+      "clientes": []
+
+    },
+    {
+      "id": 1,
+      "nome": "caneta",
+      "ativo": true,
+      "clientes": []
+    },
+    { 
+      "id": 2,
+      "nome": "caderno",
+      "ativo": true,
+      "clientes": []
+    },
+    { 
+      "id": 3,
+      "nome": "tesoura",
+      "ativo": true,
+      "clientes": []
+    }
+]
